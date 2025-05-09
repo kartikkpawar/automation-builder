@@ -1,3 +1,4 @@
+import { MenuIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -49,6 +50,7 @@ const Navbar = async () => {
           </span>
         </Link>
       </aside>
+      <MenuIcon className="md:hidden" />
     </header>
   );
 };
